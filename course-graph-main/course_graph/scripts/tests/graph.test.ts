@@ -9,7 +9,7 @@ var tgraph: Graph;
 var c1 : Node;
 var tcap: Node;
 var tcup: Node;
-//skjdfhs
+//skjdfhsksjdhfs
 beforeEach(() => {
     tgraph = new Graph();
     c1 = new Course('CPSC 103', 4);

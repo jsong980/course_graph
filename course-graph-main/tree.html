@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arbitrary Arity Tree</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      overflow: auto;
+    }
+    .node {
+      display: inline-block;
+      position: absolute;
+      padding: 5px 10px;
+      border: 2px solid #333;
+      background: #fff;
+      border-radius: 5px;
+      text-align: center;
+      white-space: nowrap;
+    }
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: visible;
+    }
+  </style>
+</head>
+<body>
+  <svg id="svg-lines"></svg>
+  <div id="tree-container"></div>
+
+  <script>
+    const treeData = {
+      label: "Root",
+      children: [
+        {
+          label: "Child 1",
+          children: [
+            { label: "Grandchild 1" },
+            { label: "Grandchild 2" },
+          ]
+        },
+        {
+          label: "Child 2",
+          children: [
+            { label: "Grandchild 3" }
+          ]
+        },
+        {
+          label: "Child 3"
+        }
+      ]
+    };
+
+    const container = document.getElementById("tree-container");
+    const svg = document.getElementById("svg-lines");
+
+    let idCounter = 0;
+
+    function createNode(label) {
+      const node = document.createElement("div");
+      node.className = "node";
+      node.textContent = label;
+      node.id = "node-" + idCounter++;
+      container.appendChild(node);
+      return node;
+    }
+
+    function drawLine(fromEl, toEl, color = "black") {
+      const svgNS = "http://www.w3.org/2000/svg";
+      const fromRect = fromEl.getBoundingClientRect();
+      const toRect = toEl.getBoundingClientRect();
+
+      const startX = fromRect.left + fromRect.width / 2;
+      const startY = fromRect.bottom;
+      const endX = toRect.left + toRect.width / 2;
+      const endY = toRect.top;
+
+      const line = document.createElementNS(svgNS, "line");
+      line.setAttribute("x1", startX);
+      line.setAttribute("y1", startY);
+      line.setAttribute("x2", endX);
+      line.setAttribute("y2", endY);
+      line.setAttribute("stroke", color);
+      line.setAttribute("stroke-width", "2");
+
+      svg.appendChild(line);
+    }
+
+    function renderTree(data, x, y, level = 0) {
+      const node = createNode(data.label);
+      node.style.left = `${x}px`;
+      node.style.top = `${y}px`;
+
+      if (data.children && data.children.length > 0) {
+        const childSpacing = 150;
+        const childY = y + 80;
+        const totalWidth = (data.children.length - 1) * childSpacing;
+        const startX = x - totalWidth / 2;
+
+        data.children.forEach((child, i) => {
+          const childX = startX + i * childSpacing;
+          const childNode = renderTree(child, childX, childY, level + 1);
+          drawLine(node, childNode, `hsl(${(level * 60) % 360}, 70%, 40%)`);
+        });
+      }
+
+      return node;
+    }
+
+    // Initial render at center
+    window.onload = () => {
+      const centerX = window.innerWidth / 2;
+      renderTree(treeData, centerX, 20);
+    };
+  </script>
+</body>
+</html>

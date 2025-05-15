@@ -4,8 +4,8 @@
 import {Node} from "./node.js";
 
 export enum LogicOp{
-   AND, 
-   OR 
+   AND = 'And', 
+   OR = 'Or'
 }
 
 export class Clause extends Node{
@@ -13,7 +13,7 @@ export class Clause extends Node{
     children: Node[] = [];
 
     constructor(type: LogicOp){
-        super();
+        super(JSON.parse(JSON.stringify(type)));
         this.type = type;
     }
 }

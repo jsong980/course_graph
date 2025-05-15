@@ -1,24 +1,27 @@
 /** Node represents a node in a graph and stores its own position in the adjacency matrix for the graph */
 export class Node{ 
-    private position: number; 
+    private static numOfNodes: number = 0; 
+    private id_num : number;
+    private key : string; //key = string + "_" + id_num
+
     
-    constructor(){
-        this.position = -1;//-1 as default since haven't added to a graph yet
+    constructor(id : string){
+        Node.numOfNodes++;
+        this.id_num = Node.numOfNodes;
+        this.key = `${id}_${this.id_num}`;
     }
 
-    
-
     //for testing 
-    print_position():void{
-        console.log(this.position);
+    print_key():void{
+        console.log(this.id_num);
     }
 
     //getters and setters:
-    get getPosition() : number{
-        return this.position;
+    get nodeId() : number{
+        return this.id_num;
     }
 
-    set_position(i:number) : void{
-        this.position = i;
+    get nodeKey() : string{
+        return this.key;
     }
 }

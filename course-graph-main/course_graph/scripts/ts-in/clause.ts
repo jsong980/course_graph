@@ -9,11 +9,17 @@ export enum LogicOp{
 }
 
 export class Clause extends Node{
-    type: LogicOp;
-    children: Node[] = [];
+    private op: LogicOp;
+    private id: string;
 
-    constructor(type: LogicOp){
-        super(JSON.parse(JSON.stringify(type)));
-        this.type = type;
+    constructor(op: LogicOp, id: string){
+        //Constructing a unique key
+        super(id);
+        this.op = op;
+        this.id = id;
+    }
+
+    get operator(){
+        return this.op;
     }
 }

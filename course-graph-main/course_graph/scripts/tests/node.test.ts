@@ -6,28 +6,33 @@ import {Clause, LogicOp} from '../ts-in/clause.js';
 //Globals:
 var tnode : Node = new Node('testnode'); 
 var tcourse : Course = new Course('CPSC 103', 4);
-var tcap : Clause = new Clause(LogicOp.AND);
-var tcup : Clause = new Clause(LogicOp.OR);
+var tcap : Clause = new Clause(LogicOp.AND, "AND1");
+var tcup : Clause = new Clause(LogicOp.OR, "OR1");
+var tcup2 : Clause = new Clause(LogicOp.OR, "OR2");
+var tcap2 : Clause = new Clause(LogicOp.AND, "AND2");
 
 test('test Node Constructor', ()=>{
-    expect(tnode.nodeId).toEqual(1);
-    expect(tnode.nodeKey).toEqual("testnode_1");
+    expect(tnode.nodeKey).toEqual("testnode");
 }); 
 
 test('test Course Constructor', ()=>{
-    expect(tcourse.nodeId).toEqual(2);
     expect(tcourse.courseId).toEqual('CPSC 103');
-    expect(tcourse.nodeKey).toEqual('CPSC 103_2');
+    expect(tcourse.nodeKey).toEqual('CPSC 103');
     expect(tcourse.courseCredits).toEqual(4);
 
 }); 
 
 test('test Clause Constructor', ()=>{
-    expect(tcap.nodeId).toEqual(3);
-    expect(tcap.type).toEqual(LogicOp.AND);
-    expect(tcap.nodeKey).toEqual("And_3");
+    expect(tcap.operator).toEqual(LogicOp.AND);
+    expect(tcap.nodeKey).toEqual("AND1");
 
-    expect(tcup.nodeId).toEqual(4);
-    expect(tcup.type).toEqual(LogicOp.OR);
-    expect(tcup.nodeKey).toEqual("Or_4");
+    expect(tcup.operator).toEqual(LogicOp.OR);
+    expect(tcup.nodeKey).toEqual("OR1");
+
+    expect(tcup2.operator).toEqual(LogicOp.OR);
+    expect(tcup2.nodeKey).toEqual("OR2");
+
+    expect(tcap2.operator).toEqual(LogicOp.AND);
+    expect(tcap2.nodeKey).toEqual("AND2");
+
 }); 

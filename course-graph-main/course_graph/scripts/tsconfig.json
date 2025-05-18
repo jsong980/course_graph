@@ -112,6 +112,6 @@
     "skipLibCheck": true                               /* Skip type checking all .d.ts files. */
   }, 
   "type": "module",
-  "include": ["ts-in", "tests"], 
+  "include": ["ts-in"], 
   "exclude": [],
 }

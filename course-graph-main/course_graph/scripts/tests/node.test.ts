@@ -13,26 +13,32 @@ var tcap2 : Clause = new Clause(LogicOp.AND, "AND2");
 
 test('test Node Constructor', ()=>{
     expect(tnode.nodeKey).toEqual("testnode");
+    expect(tnode.position).toEqual(-1);
 }); 
 
 test('test Course Constructor', ()=>{
     expect(tcourse.courseId).toEqual('CPSC 103');
     expect(tcourse.nodeKey).toEqual('CPSC 103');
     expect(tcourse.courseCredits).toEqual(4);
+    expect(tcourse.position).toEqual(-1);
 
 }); 
 
 test('test Clause Constructor', ()=>{
     expect(tcap.operator).toEqual(LogicOp.AND);
     expect(tcap.nodeKey).toEqual("AND1");
+    expect(tcap.position).toEqual(-1); 
 
     expect(tcup.operator).toEqual(LogicOp.OR);
     expect(tcup.nodeKey).toEqual("OR1");
+    expect(tcap.position).toEqual(-1); 
 
     expect(tcup2.operator).toEqual(LogicOp.OR);
     expect(tcup2.nodeKey).toEqual("OR2");
+    expect(tcup2.position).toEqual(-1);
 
     expect(tcap2.operator).toEqual(LogicOp.AND);
     expect(tcap2.nodeKey).toEqual("AND2");
+    expect(tcap2.position).toEqual(-1);
 
 }); 

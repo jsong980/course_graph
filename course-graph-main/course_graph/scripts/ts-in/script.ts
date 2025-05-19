@@ -1,3 +1,5 @@
+/* v8 ignore start */
+
 import * as d3 from "d3";
 import {Node} from "./node.js"; 
 import {Course} from "./course.js"; 
@@ -39,4 +41,5 @@ let c2 : Course = new Course("CPSC 210", 4);
 
 // console.log(graph.course_nodes);
 
+/* v8 ignore stop */
 

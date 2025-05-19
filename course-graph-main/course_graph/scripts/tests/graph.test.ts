@@ -51,18 +51,19 @@ test('Add single prerequisite to a course', ()=>{
     
     expect(tgraph.adjList).toEqual(expected);
 
-    //Checking all appropriate nodes and edges exist
-    expect(tgraph.doesEdgeExist(cpsc103, cpsc107)).toBe(true);
-    courses.forEach((course) => expect(tgraph.doesNodeExist(course)).toBe(true));
+     //Checking all appropriate nodes and edges exist
+    checkAllEdgesExist(expected, tgraph);
+    checkAllNodesExist(courses, tgraph);
 
     //Checking position of each course is correct
-    for(let i : number = 0; i < tgraph.courseList.length; i++){
-        expect(tgraph.courseList[i] == courses[i]).toBe(true);
-        expect(courses[i].position == i).toBe(true);
-    }
+    checkPositionsOfNodes(courses);
 
     //Checking courseList have been updated properly: 
-    expect(tgraph.courseList.length).toBe(2);
+    expect(tgraph.courseList).toEqual(courses);
+
+    //Check andCount and orCount
+    expect(tgraph.andCount).toEqual(0);
+    expect(tgraph.orCount).toEqual(0);
 });
 
 test('Add single prequisites to two courses', ()=>{
@@ -75,17 +76,18 @@ test('Add single prequisites to two courses', ()=>{
     expect(tgraph.adjList).toEqual(expected); 
 
      //Checking all appropriate nodes and edges exist
-    courses.forEach((course) => expect(tgraph.doesEdgeExist(cpsc110, course)).toBe(true));
-    courses.forEach((course) => expect(tgraph.doesNodeExist(course)).toBe(true));
+    checkAllEdgesExist(expected, tgraph);
+    checkAllNodesExist(courses, tgraph);
 
     //Checking position of each course is correct
-    for(let i : number = 0; i < tgraph.courseList.length; i++){
-        expect(tgraph.courseList[i] == courses[i]).toBe(true);
-        expect(courses[i].position == i).toBe(true);
-    }
+    checkPositionsOfNodes(courses);
 
     //Checking courseList have been updated properly: 
-    expect(tgraph.courseList.length).toBe(3);
+    expect(tgraph.courseList).toEqual(courses);
+
+    //Check andCount and orCount
+    expect(tgraph.andCount).toEqual(0);
+    expect(tgraph.orCount).toEqual(0);
 });
 
 test('Add single prequisites to three courses', ()=>{
@@ -99,17 +101,18 @@ test('Add single prequisites to three courses', ()=>{
     expect(tgraph.adjList).toEqual(expected); 
 
     //Checking all appropriate nodes and edges exist
-    courses.slice(1).forEach(course => expect(tgraph.doesEdgeExist(cpsc107, course)).toBe(true));
-    courses.forEach((course) => expect(tgraph.doesNodeExist(course)).toBe(true));
+    checkAllEdgesExist(expected, tgraph);
+    checkAllNodesExist(courses, tgraph);
 
     //Checking position of each course is correct
-    for(let i : number = 0; i < tgraph.courseList.length; i++){
-        expect(tgraph.courseList[i] == courses[i]).toBe(true);
-        expect(courses[i].position == i).toBe(true);
-    }
+    checkPositionsOfNodes(courses);
 
     //Checking courseList have been updated properly: 
-    expect(tgraph.courseList.length).toBe(4);
+    expect(tgraph.courseList).toEqual(courses);
+
+    //Check andCount and orCount
+    expect(tgraph.andCount).toEqual(0);
+    expect(tgraph.orCount).toEqual(0);
 });
 
 
@@ -123,17 +126,18 @@ test('Add two prequisites to a single course', ()=>{
     expect(tgraph.adjList).toEqual(expected); 
 
     //Checking all appropriate nodes and edges exist
-    [cpsc210, cpsc110].forEach((course) => expect(tgraph.doesEdgeExist(course, cpsc213)).toBe(true));
-    courses.forEach((course) => expect(tgraph.doesNodeExist(course)).toBe(true));
+    checkAllEdgesExist(expected, tgraph);
+    checkAllNodesExist(courses, tgraph);
 
     //Checking position of each course is correct
-    for(let i : number = 0; i < tgraph.courseList.length; i++){
-        expect(tgraph.courseList[i] == courses[i]).toBe(true);
-        expect(courses[i].position == i).toBe(true);
-    }
+    checkPositionsOfNodes(courses);
 
     //Checking courseList have been updated properly: 
-    expect(tgraph.courseList.length).toBe(3);
+    expect(tgraph.courseList).toEqual(courses);
+
+    //Check andCount and orCount
+    expect(tgraph.andCount).toEqual(0);
+    expect(tgraph.orCount).toEqual(0);
 });
 
 test('Add three prequisites to a single course', ()=>{
@@ -163,13 +167,15 @@ test('Add three prequisites to a single course', ()=>{
 
 test('Add a union of two prequisites to a course', ()=>{
     let preqs : Node[] = [cpsc107, cpsc110]; 
-    let or1 : Node = new Clause(LogicOp.OR, "OR1");
-    or1.setPosition(3);
+    let exp_or1 : Node = new Clause(LogicOp.OR, "OR1");
+    exp_or1.setPosition(3);
 
-    let expected : Array<Array<Node>> = [[cpsc107, or1], [cpsc110, or1], [cpsc210], [or1, cpsc210]];
-    let exp_nodes : Array<Node> = [cpsc107, cpsc110, cpsc210, or1]; 
+    let expected : Array<Array<Node>> = [[cpsc107, exp_or1], [cpsc110, exp_or1], [cpsc210], [exp_or1, cpsc210]];
+    let exp_nodes : Array<Node> = [cpsc107, cpsc110, cpsc210, exp_or1]; 
+    let exp_courses : Array<Node> = [cpsc107, cpsc110, cpsc210];
+    let exp_clauses : Array<Node> = [exp_or1];
     
-    expect(tgraph.addUnionOfPrequisites(cpsc210, preqs)).toEqual(or1);//we expect a node to be returned
+    expect(tgraph.addUnionOfPrequisites(cpsc210, preqs)).toEqual(exp_or1);//we expect a node to be returned
     expect(tgraph.adjList).toEqual(expected);
 
     //checking all edges in expected exist in the graph
@@ -180,11 +186,12 @@ test('Add a union of two prequisites to a course', ()=>{
     checkPositionsOfNodes(exp_nodes);
 
     //checking that arrays of courses and clauses have been properly updated: 
-    [cpsc107, cpsc110, cpsc210].forEach(course => {expect(tgraph.courseList.includes(course)).toBe(true)});
-    expect(tgraph.courseList.length).toEqual(3);
+    expect(tgraph.courseList).toEqual(exp_courses);
+    expect(tgraph.clauseList).toEqual(exp_clauses);
 
-    expect(tgraph.clauseList[0]).toEqual(or1);
-    expect(tgraph.clauseList.length).toEqual(1);
+    //checking andCount and orCount are properly updated
+    expect(tgraph.andCount).toEqual(0);
+    expect(tgraph.orCount).toEqual(1);
 });
 
 test('Add a union of three prequisites to a course', ()=>{

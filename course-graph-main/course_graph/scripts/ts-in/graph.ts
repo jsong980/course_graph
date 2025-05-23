@@ -60,13 +60,6 @@ export class Graph implements IGraph{
     // Adds a union of prerequisties to an existing course.
     // This means a student must take at least one of the courses in the pre_reqs in order to apply for the course
     public addUnionOfPrequisites(course: Node, pre_reqs: Node[]): Clause{
-        //TODO:
-
-        //Case 1: add a union of two preqs to a single course
-        //Add all nodes if haven't already 
-        //Add a single or clause node to the graph
-        //Update adj list 
-
         this.or_count++;
         let key : string = `OR${this.or_count}`;
         let clause : Clause = new Clause(LogicOp.OR, key);
@@ -78,7 +71,6 @@ export class Graph implements IGraph{
     // Adds a intersection of prerequisties to an existing course.
     // This means a student must take all the courses in the pre_reqs in order to apply for the course
     public addIntersectionOfPrequisites(course: Node, pre_reqs: Node[]): Clause{
-        //TODO:
         this.and_count++;
         let key : string = `AND${this.and_count}`;
         let clause : Clause = new Clause(LogicOp.AND, key);
@@ -98,16 +90,21 @@ export class Graph implements IGraph{
 
         nodes.forEach(node => {if(!this.doesNodeExist(node)) this.addNode(node)});
         this.addNode(clause);
+        this.updateAdjListHelper(pre_reqs, clause, target);
+        
+    }
 
+    //Helper for addClauseNodeHelper
+    //      -remove all edges between pre-reqs and target
+    //      -make all pre-reqs point to the clause
+    private updateAdjListHelper(pre_reqs : Node[], clause: Node, target : Node){
         pre_reqs.forEach(preq => this.removeEdgeFromAdjList(preq, target));
         pre_reqs.forEach(preq => this.addEdgeToAdjList(preq, clause));
-
         this.addEdgeToAdjList(clause, target);
     }
 
     //Checks if given edge exists in graph
     public doesEdgeExist(start : Node, end: Node):boolean{
-        //TODO:
         for(const course of this.adj_list[start.position]){
             if(JSON.stringify(course) === JSON.stringify(end)) return true;
         }
@@ -116,7 +113,6 @@ export class Graph implements IGraph{
 
     //Checks if given node exists in the graph
     public doesNodeExist(node : Node){
-        //TODO:
         for(let i : number = 0; i < this.adjList.length; i++){
             if(JSON.stringify(this.adjList[i][0]) == JSON.stringify(node)) return true;
         }

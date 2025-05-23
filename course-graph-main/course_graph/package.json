@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
-  "coverage": "vitest run --coverage",
   "author": "",
   "license": "ISC",
   "description": "",

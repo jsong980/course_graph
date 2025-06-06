@@ -1,8 +1,8 @@
 import {assert, expect, test, beforeEach} from 'vitest' 
-import {Node} from "../ts-in/node.js"; 
-import {Graph} from '../ts-in/graph.js'; 
-import {Course} from '../ts-in/course.js';
-import {Clause, LogicOp} from '../ts-in/clause.js';
+import {Node} from "../ts-in/model/node.js"; 
+import {Graph} from '../ts-in/model/graph.js'; 
+import {Course} from '../ts-in/model/course.js';
+import {Clause, LogicOp} from '../ts-in/model/clause.js';
 
 //Globals:
 var tgraph : Graph; 

@@ -1,0 +1,37 @@
+{
+    "0:": {
+        "Course ID": "CPSC_V 100",
+        "Title": "Computational Thinking",
+        "Description": "Meaning and impact of computational thinking. Solving problems using computational thinking, testing, debugging. How computers work. No prior computing experience required. Not for students with existing credit for or exemption from CPSC 107, CPSC 110 or APSC 160. [3-1-0]",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "1:": {
+        "Course ID": "CPSC_V 103",
+        "Title": "Introduction to Systematic Program Design",
+        "Description": "Computation as a tool for systematic problem solving in non-computer-science disciplines. Introductory programming skills. Not for credit for students who have credit for, or exemption from, or are concurrently taking CPSC 110 or APSC 160. No programming experience expected. [3-0-1]",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "2:": {
+        "Course ID": "CPSC_V 107",
+        "Title": "Systematic Program Design",
+        "Description": "Fundamental computation and program structures. Continuing systematic program design from CPSC 103. [3-2-0]",
+        "Prerequisite": "CPSC 103.",
+        "Corequisite": ""
+    },
+    "3:": {
+        "Course ID": "CPSC_V 110",
+        "Title": "Computation, Programs, and Programming",
+        "Description": "Fundamental program and computation structures. Introductory programming skills. Computation as a tool for information processing, simulation and modelling, and interacting with the world. [3-3-0]",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "4:": {
+        "Course ID": "CPSC_V 121",
+        "Title": "Models of Computation",
+        "Description": "Physical and mathematical structures of computation. Boolean algebra and combinations logic circuits; proof techniques; functions and sequential circuits; sets and relations; finite state machines; sequential instruction execution. [3-2-1]",
+        "Prerequisite": "Principles of Mathematics 12 or Pre-calculus 12. Corequisite: One of CPSC 107, CPSC 110.",
+        "Corequisite": "One of CPSC 107, CPSC 110."
+    }
+}

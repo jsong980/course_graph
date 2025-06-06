@@ -1,0 +1,1220 @@
+{
+    "0:": {
+        "Course ID": "CPSC_V 100",
+        "Title": "Computational Thinking",
+        "Description": "Meaning and impact of computational thinking. Solving problems using computational thinking, testing, debugging. How computers work. No prior computing experience required. Not for students with existing credit for or exemption from CPSC 107, CPSC 110 or APSC 160. [3-1-0",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "1:": {
+        "Course ID": "CPSC_V 103",
+        "Title": "Introduction to Systematic Program Design",
+        "Description": "Computation as a tool for systematic problem solving in non-computer-science disciplines. Introductory programming skills. Not for credit for students who have credit for, or exemption from, or are concurrently taking CPSC 110 or APSC 160. No programming experience expected. [3-0-1",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "2:": {
+        "Course ID": "CPSC_V 107",
+        "Title": "Systematic Program Design",
+        "Description": "Fundamental computation and program structures. Continuing systematic program design from CPSC 103. [3-2-0] ",
+        "Prerequisite": "CPSC 103.",
+        "Corequisite": ""
+    },
+    "3:": {
+        "Course ID": "CPSC_V 110",
+        "Title": "Computation, Programs, and Programming",
+        "Description": "Fundamental program and computation structures. Introductory programming skills. Computation as a tool for information processing, simulation and modelling, and interacting with the world. [3-3-0",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "4:": {
+        "Course ID": "CPSC_V 121",
+        "Title": "Models of Computation",
+        "Description": "Physical and mathematical structures of computation. Boolean algebra and combinations logic circuits; proof techniques; functions and sequential circuits; sets and relations; finite state machines; sequential instruction execution. [3-2-1] ",
+        "Prerequisite": "Principles of Mathematics 12 or Pre-calculus 12. ",
+        "Corequisite": "One of CPSC 107, CPSC 110."
+    },
+    "5:": {
+        "Course ID": "CPSC_V 203",
+        "Title": "Programming, Problem Solving, and Algorithms",
+        "Description": "Analysis of increasingly complex algorithmic problems, using a modern programming language and a variety of approaches. Problem decomposition and abstraction guide explorations of topics from applied algorithms, for example Voronoi Diagrams, Markov Chains, Bin Packing, and Graph Search. Not for students with credit for, or currently enrolled in, CPSC 210 or CPEN 221. [3-0-1] ",
+        "Prerequisite": "One of CPSC 103, CPSC 110, APSC 160, EOSC 211, MATH 210, PHYS 210, COMM 337.",
+        "Corequisite": ""
+    },
+    "6:": {
+        "Course ID": "CPSC_V 210",
+        "Title": "Software Construction",
+        "Description": "Design, development, and analysis of robust software components. Topics such as software design, computational models, data structures, debugging, and testing. [3-2-0] ",
+        "Prerequisite": "One of CPSC 107, CPSC 110.",
+        "Corequisite": ""
+    },
+    "7:": {
+        "Course ID": "CPSC_V 213",
+        "Title": "Introduction to Computer Systems",
+        "Description": "Software architecture, operating systems, and I/O architectures. Relationships between application software, operating systems, and computing hardware; critical sections, deadlock avoidance, and performance; principles and operation of disks and networks. [3-3-0] ",
+        "Prerequisite": "All of CPSC 121, CPSC 210.",
+        "Corequisite": ""
+    },
+    "8:": {
+        "Course ID": "CPSC_V 221",
+        "Title": "Basic Algorithms and Data Structures",
+        "Description": "Design and analysis of basic algorithms and data structures; algorithm analysis methods, searching and sorting algorithms, basic data structures, graphs and concurrency. [3-2-0] ",
+        "Prerequisite": "One of CPSC 210, CPEN 221 and either (a) one of CPSC 121, MATH 220 or (b) a score of 68% or higher in MATH 226.",
+        "Corequisite": ""
+    },
+    "9:": {
+        "Course ID": "CPSC_V 259",
+        "Title": "Data Structures and Algorithms for Electrical Engineers",
+        "Description": "Advanced procedural programming. Fundamental algorithms for sorting and searching. Data structures including lists, trees, and hash tables. Introduction to scripting languages and file input/output. [3-2-0] ",
+        "Prerequisite": "APSC 160.",
+        "Corequisite": ""
+    },
+    "10:": {
+        "Course ID": "CPSC_V 261",
+        "Title": "Basics of Computer Systems",
+        "Description": "Software architecture, operating systems, and I/O architectures. Relationships between application software, operating systems, and computing hardware; critical sections, deadlock avoidance, and performance; principles and operation of disks and networks. [3-2-1] ",
+        "Prerequisite": "One of EECE 259, CPEN 211 and one of EECE 210, CPEN 221.",
+        "Corequisite": ""
+    },
+    "11:": {
+        "Course ID": "CPSC_V 298",
+        "Title": "Co-operative Work Placement I",
+        "Description": "Approved and supervised technical work experience in the computing industry for a minimum of 3.5 months. Normally taken during Winter Session of second year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Computer Science.\nThis course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "12:": {
+        "Course ID": "CPSC_V 299",
+        "Title": "Co-operative Work Placement II",
+        "Description": "Approved and supervised technical work experience in the computing industry for a minimum of 3.5 months. Normally taken during the summer following the second year. Technical report required. Restricted to students admitted to the Co-operative Education. ",
+        "Prerequisite": "[CPSC298]\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "13:": {
+        "Course ID": "CPSC_V 302",
+        "Title": "Numerical Computation for Algebraic Problems",
+        "Description": "Numerical techniques for basic mathematical processes involving no discretization, and their analysis. Solution of linear systems, including analysis of round-off errors; norms and condition number; introduction to iterative techniques in linear algebra, including eigenvalue problems; solution to nonlinear equations. [3-0-0] ",
+        "Prerequisite": "One of CPSC 103, CPSC 110, CPEN 221, EOSC 211, PHYS 210 and one of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001 and one of MATH 152, MATH 221, MATH 223.",
+        "Corequisite": ""
+    },
+    "14:": {
+        "Course ID": "CPSC_V 303",
+        "Title": "Numerical Approximation and Discretization",
+        "Description": "Numerical techniques for basic mathematical processes involving discretization, and their analysis. Interpolation and approximation, including splines and least squares data fitting; numerical differentiation and integration; introduction to numerical initial value ordinary differential equations. [3-0-0] ",
+        "Prerequisite": "One of CPSC 103, CPSC 110, CPEN 221, EOSC 211, PHYS 210 and one of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001 and one of MATH 152, MATH 221, MATH 223.",
+        "Corequisite": ""
+    },
+    "15:": {
+        "Course ID": "CPSC_V 304",
+        "Title": "Introduction to Relational Databases",
+        "Description": "Overview of database systems, ER models, logical database design and normalization, formal relational query languages, SQL and other commercial languages, data warehouses, special topics. [3-0-1] ",
+        "Prerequisite": "CPSC_V 221 or DSCI_V 221.",
+        "Corequisite": ""
+    },
+    "16:": {
+        "Course ID": "CPSC_V 310",
+        "Title": "Introduction to Software Engineering",
+        "Description": "Specification, design, validation, evolution and construction of modern software systems, within the context of socially and professionally relevant domains such as ethics, intellectual property, and information security. [3-2-0] ",
+        "Prerequisite": "All of CPSC 213, CPSC 221.",
+        "Corequisite": ""
+    },
+    "17:": {
+        "Course ID": "CPSC_V 311",
+        "Title": "Definition of Programming Languages",
+        "Description": "Comparative study of advanced programming language features. Statement types, data types, variable binding, parameter passing mechanisms. Methods for syntactic and semantic description of programming languages. [3-0-1] ",
+        "Prerequisite": "CPSC 210.",
+        "Corequisite": ""
+    },
+    "18:": {
+        "Course ID": "CPSC_V 312",
+        "Title": "Functional and Logic Programming",
+        "Description": "Principles of symbolic computing, using languages based upon first-order logic and the lambda calculus. Algorithms for implementing such languages. Applications to artificial intelligence and knowledge representation. [3-0-0] ",
+        "Prerequisite": "One of CPSC 210, CPEN 221.",
+        "Corequisite": ""
+    },
+    "19:": {
+        "Course ID": "CPSC_V 313",
+        "Title": "Computer Hardware and Operating Systems",
+        "Description": "Instruction sets, pipelining, code optimization, caching, virtual memory management, dynamically linked libraries, exception processing, execution time of programs. [3-0-1] ",
+        "Prerequisite": "CPSC_V 213 and either CPSC_V 221 or DSCI_V 221.",
+        "Corequisite": ""
+    },
+    "20:": {
+        "Course ID": "CPSC_V 314",
+        "Title": "Computer Graphics",
+        "Description": "Human vision and colour; geometric transformations; algorithms for 2-D and 3-D graphics; hardware and system architectures; shading and lighting; animation. [3-1-0] ",
+        "Prerequisite": "CPSC 221 and one of MATH 200, MATH 217, MATH 226, MATH 253 and one of MATH 152, MATH 221, MATH 223.",
+        "Corequisite": ""
+    },
+    "21:": {
+        "Course ID": "CPSC_V 317",
+        "Title": "Introduction to Computer Networking",
+        "Description": "Computer networking, basic communication protocols, network infrastructure and routing. Common application-level protocols and principles associated with developing distributed applications. [3-0-1] ",
+        "Prerequisite": "CPSC_V 213 and either CPSC_V 221 or DSCI_V 221.",
+        "Corequisite": ""
+    },
+    "22:": {
+        "Course ID": "CPSC_V 319",
+        "Title": "Software Engineering Project",
+        "Description": "The design, implementation, and test of a large software system, using a team approach. [3-0-2] ",
+        "Prerequisite": "CPSC 310.",
+        "Corequisite": ""
+    },
+    "23:": {
+        "Course ID": "CPSC_V 320",
+        "Title": "Intermediate Algorithm Design and Analysis",
+        "Description": "Systematic study of basic concepts and techniques in the design and analysis of algorithms, illustrated from various problem areas. Topics include: models of computation; choice of data structures; graph-theoretic, algebraic, and text processing algorithms. [3-0-1] ",
+        "Prerequisite": "All of (a) CPSC_V 221 or DSCI_V 221, (b) at least 3 credits from COMM_V 291, BIOL_V 300, MATH or STAT at 200 level or above.",
+        "Corequisite": ""
+    },
+    "24:": {
+        "Course ID": "CPSC_V 322",
+        "Title": "Introduction to Artificial Intelligence",
+        "Description": "Problem-solving and planning; state/action models and graph searching. Natural language understanding Computational vision. Applications of artificial intelligence. [3-0-0] ",
+        "Prerequisite": "CPSC 221.",
+        "Corequisite": ""
+    },
+    "25:": {
+        "Course ID": "CPSC_V 330",
+        "Title": "Applied Machine Learning",
+        "Description": "Application of machine learning tools, with an emphasis on solving practical problems. Data cleaning, feature extraction, supervised and unsupervised machine learning, reproducible workflows, and communicating results. [3-0-1] ",
+        "Prerequisite": "Either (a) one of CPSC_V 203, CPSC_V 210, CPEN_V 221, DSCI_V 221 or (b) MATH_V 210 and one of CPSC_V 107, CPSC_V 110.",
+        "Corequisite": ""
+    },
+    "26:": {
+        "Course ID": "CPSC_V 340",
+        "Title": "Machine Learning and Data Mining",
+        "Description": "Models of algorithms for dimensionality reduction, nonlinear regression, classification, clustering and unsupervised learning; applications to computer graphics, computer games, bio-informatics, information retrieval, e-commerce, databases, computer vision and artificial intelligence. [3-0-1] ",
+        "Prerequisite": "All of (a) one of CPSC_V 221, DSCI_V 221 (b) one of MATH_V 152, MATH_V 221, MATH_V 223 (c) one of MATH_V 200, MATH_V 217, MATH_V 226, MATH_V 253, MATH_V 254 (d) one of STAT_V 241, STAT_V 251, ECON_V 325, ECON_V 327, MATH_V 302, STAT_V 302, MATH_V 318.",
+        "Corequisite": ""
+    },
+    "27:": {
+        "Course ID": "CPSC_V 344",
+        "Title": "Introduction to Human Computer Interaction Methods",
+        "Description": "Basic tools and techniques, teaching a systematic approach to interface design, task analysis, analytic and empirical evaluation methods. [2-2-2] ",
+        "Prerequisite": "One of CPSC 210, CPEN 221.",
+        "Corequisite": ""
+    },
+    "28:": {
+        "Course ID": "CPSC_V 349",
+        "Title": "Honours Research Seminar",
+        "Description": "Students will attend a series of research seminars presented by faculty members, produce a thesis proposal, and choose their honours thesis supervisor. Available to Honours students. Majors students with satisfactory standing may also be permitted to enrol. [1-0-0]\nThis course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "29:": {
+        "Course ID": "CPSC_V 368",
+        "Title": "Databases in Data Science",
+        "Description": "Overview of relational and non-relational database systems, role and usage of a database when querying data, data modelling, query languages, and query optimization. [3-0-1] ",
+        "Prerequisite": "One of CPSC_V 203, CPSC_V 210, CPEN_V 221, DSCI_V 221.",
+        "Corequisite": ""
+    },
+    "30:": {
+        "Course ID": "CPSC_V 398",
+        "Title": "Co-operative Work Placement III",
+        "Description": "Approved and supervised technical work experience in the computing industry for a minimum of 3.5 months. Normally taken during the summer following the third year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Computer Science.\nThis course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "31:": {
+        "Course ID": "CPSC_V 399",
+        "Title": "Co-operative Work Placement IV",
+        "Description": "Approved and supervised technical work experience in the computing industry for a minimum of 3.5 months. Normally taken during the fall term of the fourth year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Computer Science.\nThis course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "32:": {
+        "Course ID": "CPSC_V 402",
+        "Title": "Numerical Linear Algebra",
+        "Description": "Investigation of the practical techniques of computational linear algebra. Orthogonal transformations and their application to the solution of linear equations, the eigenproblem, and linear least squares. Complete solution of the symmetric eigenproblem, including bisection and the QR method. Refinements of these techniques for sparse matrices. [3-0-0] ",
+        "Prerequisite": "One of CPSC 302, CPSC 303, MATH 307.",
+        "Corequisite": ""
+    },
+    "33:": {
+        "Course ID": "CPSC_V 404",
+        "Title": "Advanced Relational Databases",
+        "Description": "Physical database design, indexing, external mergesort, relational query processing and optimization, transaction processing, concurrency control, crash recovery, special topics. [3-0-0] ",
+        "Prerequisite": "CPSC 304 and one of CPSC 213, CPSC 261, CPEN 212.",
+        "Corequisite": ""
+    },
+    "34:": {
+        "Course ID": "CPSC_V 406",
+        "Title": "Computational Optimization",
+        "Description": "Formulation and analysis of algorithms for continuous and discrete optimization problems; linear, nonlinear, network, dynamic, and integer optimization; large-scale problems; software packages and their implementation; duality theory and sensitivity. [3-0] ",
+        "Prerequisite": "One of CPSC 302, CPSC 303, MATH 307.",
+        "Corequisite": ""
+    },
+    "35:": {
+        "Course ID": "CPSC_V 410",
+        "Title": "Advanced Software Engineering",
+        "Description": "Specification, design, construction and validation of multi-version software systems. [3-0-0] ",
+        "Prerequisite": "Either (a) CPSC 310 or (b) all of CPEN 321, CPEN 331.",
+        "Corequisite": ""
+    },
+    "36:": {
+        "Course ID": "CPSC_V 411",
+        "Title": "Introduction to Compiler Construction",
+        "Description": "A practical introduction to lexical analysis, syntactic analysis, type-checking, code generation and optimization. This will be used to design and implement a compiler for a small language. [3-0-0] ",
+        "Prerequisite": "All of CPSC 213, CPSC 221, CPSC 311.",
+        "Corequisite": ""
+    },
+    "37:": {
+        "Course ID": "CPSC_V 415",
+        "Title": "Advanced Operating Systems",
+        "Description": "Process synchronization and communication schemes, including message-passing and concepts of monitor and serializer. Virtual memory systems management and the problem of information sharing in such systems. The working set principle. Traps and interrupt handling. Elementary queuing theory and its application such as process scheduling, system balancing and load control. File systems and operating system design methodologies. [3-0-0] ",
+        "Prerequisite": "One of CPSC 313, CPEN 331.",
+        "Corequisite": ""
+    },
+    "38:": {
+        "Course ID": "CPSC_V 416",
+        "Title": "Distributed Systems",
+        "Description": "Concepts and design of distributed systems. Communication architecture and models for interprocess communication. Process migration, naming, distributed file systems, fault tolerance, and concurrency control. [3-0-0] ",
+        "Prerequisite": "One of CPSC 313, CPEN 331 and one of CPSC 317, ELEC 331.",
+        "Corequisite": ""
+    },
+    "39:": {
+        "Course ID": "CPSC_V 417",
+        "Title": "Computer Networking",
+        "Description": "Network protocols and architecture including internetworking, the Internet, layered communication protocols, routing, flow and congestion control, network performance, wired and wireless data communication. [3-0] ",
+        "Prerequisite": "All of CPSC 313, CPSC 317 and one of STAT 200, STAT 201, STAT 241, STAT 251.",
+        "Corequisite": ""
+    },
+    "40:": {
+        "Course ID": "CPSC_V 418",
+        "Title": "Parallel Computation",
+        "Description": "Algorithms, architectures, and programming paradigms for parallel computation. Shared memory, message passing, and data parallel architectures and programming models. Parallel algorithms including reduce, scan, and sorting networks. Reasoning about the correctness of parallel programs. Performance analysis and measurement for parallel programs. [3-0-0] ",
+        "Prerequisite": "CPSC 320 and one of CPSC 261, CPSC 313, CPEN 212, CPEN 411.",
+        "Corequisite": ""
+    },
+    "41:": {
+        "Course ID": "CPSC_V 420",
+        "Title": "Advanced Algorithms Design and Analysis",
+        "Description": "The study of advanced topics in the design and analysis of algorithms and associated data structures. Topics include algorithms for graph-theoretic; algebraic and geometric problems; algorithms on nonsequential models; complexity issues; approximation algorithms. [3-0-0] ",
+        "Prerequisite": "[CPSC320]",
+        "Corequisite": ""
+    },
+    "42:": {
+        "Course ID": "CPSC_V 421",
+        "Title": "Introduction to Theory of Computing",
+        "Description": "Characterizations of computability (using machines, languages and functions). Universality, equivalence and Church's thesis. Unsolvable problems. Restricted models of computation. Finite automata, grammars and formal languages. [3-0-0] ",
+        "Prerequisite": "One of CPSC 320 or MATH 220 or MATH 226.",
+        "Corequisite": ""
+    },
+    "43:": {
+        "Course ID": "CPSC_V 422",
+        "Title": "Intelligent Systems",
+        "Description": "Principles and techniques underlying the design, implementation and evaluation of intelligent computational systems. Applications of artificial intelligence to natural language understanding, image understanding and computer-based expert and advisor systems. Advanced symbolic programming methodology. [3-0-0] ",
+        "Prerequisite": "CPSC 322.",
+        "Corequisite": ""
+    },
+    "44:": {
+        "Course ID": "CPSC_V 424",
+        "Title": "Geometric Modelling",
+        "Description": "Digital representation of curves and surfaces, including splines, subdivision surfaces and meshes. Principles, algorithms and mathematical foundations for geometry representation in computer graphics, computer vision, fabrication, CAD/CAM, and medical imaging. Algorithms for acquisition, creation, representation, and processing of 3D shapes. [3-0-1] ",
+        "Prerequisite": "One of MATH 152, MATH 221, MATH 223 and one of MATH 200, MATH 217, MATH 226, MATH 253.",
+        "Corequisite": ""
+    },
+    "45:": {
+        "Course ID": "CPSC_V 425",
+        "Title": "Computer Vision",
+        "Description": "Introduction to the processing and interpretation of images. Image sensing, sampling, and filtering. Algorithms for colour analysis, texture description, stereo imaging, motion interpretation, 3D shape recovery, and recognition. [3-0-0] ",
+        "Prerequisite": "All of CPSC 221, MATH 200, MATH 221.",
+        "Corequisite": ""
+    },
+    "46:": {
+        "Course ID": "CPSC_V 426",
+        "Title": "Computer Animation",
+        "Description": "Motion in computer graphics for characters and their environments. Keyframing, inverse kinematics, particle systems, rigid body dynamics, contact and collision, controller-based active motion, motion capture. [3-0-0] ",
+        "Prerequisite": "CPSC 314.",
+        "Corequisite": ""
+    },
+    "47:": {
+        "Course ID": "CPSC_V 427",
+        "Title": "Video Game Programming",
+        "Description": "Video game programming techniques and technologies, including rendering, animation, interaction, game AI, real-time software development for games; start-to-finish simple video-game design and implementation. [3-0-1] ",
+        "Prerequisite": "CPSC 221 and one of MATH 200, MATH 217, MATH 226, MATH 253 and one of MATH 152, MATH 221, MATH 223.",
+        "Corequisite": ""
+    },
+    "48:": {
+        "Course ID": "CPSC_V 430",
+        "Title": "Computers and Society",
+        "Description": "Impact of computer technology on society; historical perspectives; social and economic consequences of large-scale information processing systems and automatic control; legal and ethical problems in computer applications. Computers and the individual: machine versus human capabilities, fact and fancy; problematic interface between man and machine. [3-0-0] ",
+        "Prerequisite": "3 credits of Computer Science and at least third-year standing.",
+        "Corequisite": ""
+    },
+    "49:": {
+        "Course ID": "CPSC_V 436",
+        "Title": "Topics in Computer Science",
+        "Description": "Selected topics in a specific area within Computer Science. May be taken more than once for credit with permission of the department. ",
+        "Prerequisite": "Third-year standing in a Computer Science or Computer Engineering specialization, and permission of the department.",
+        "Corequisite": ""
+    },
+    "50:": {
+        "Course ID": "CPSC_V 440",
+        "Title": "Advanced Machine Learning",
+        "Description": "Advanced machine learning techniques focusing on probabilistic models. Deep learning and differentiable programming, exponential families and Bayesian inference, probabilistic graphical models and other generative models, Monte Carlo and variational inference methods. [3-0-1] ",
+        "Prerequisite": "All of CPSC 320, CPSC 340.",
+        "Corequisite": ""
+    },
+    "51:": {
+        "Course ID": "CPSC_V 444",
+        "Title": "Advanced Methods for Human Computer Interaction",
+        "Description": "Design and evaluation methodologies and theories; formal models of the user including visual, motor, and information processing; advanced evaluation methods including laboratory experiments and field studies; HCI research frontiers. [2-2-2] ",
+        "Prerequisite": "CPSC 344 and one of STAT 200, STAT 201, STAT 203, STAT 241, STAT 251, BIOL 300, COMM 291, ECON 325, ECON 327, FRST 231, GEOG 374, KIN 206, KIN 371, POLI 380, PSYC 218, PSYC 278, PSYC 366, SOCI 328.",
+        "Corequisite": ""
+    },
+    "52:": {
+        "Course ID": "CPSC_V 445",
+        "Title": "Algorithms in Bioinformatics",
+        "Description": "Sequence alignment, phylogenetic tree reconstruction, prediction of RNA and protein structure, gene finding and sequence annotation, gene expression, and biomolecular computing. [3-0-0] ",
+        "Prerequisite": "CPSC 320. and either BMEG 250 or six credits of BIOL beyond BIOL 111.",
+        "Corequisite": ""
+    },
+    "53:": {
+        "Course ID": "CPSC_V 447",
+        "Title": "Introduction to Visualization",
+        "Description": "Design and implementation of static and interactive visualizations. Selection of appropriate visualization methods for given combinations of data type and intended analysis task. Assessment of visual representations according to design and perceptual principles. [3-0-0] ",
+        "Prerequisite": "One of CPSC 310, CPEN 321.",
+        "Corequisite": ""
+    },
+    "54:": {
+        "Course ID": "CPSC_V 448",
+        "Title": "Directed Studies in Computer Science",
+        "Description": "Open ordinarily to students in Computer Science with at least a 72% average and permission of the department. The course may consist of supervised reading, participation in a seminar, and one or more programming projects.\nThis course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "55:": {
+        "Course ID": "CPSC_V 449",
+        "Title": "Honours Thesis",
+        "Description": "Under supervision of a faculty member, students investigate a research topic and prepare a thesis. ",
+        "Prerequisite": "[CPSC349]",
+        "Corequisite": ""
+    },
+    "56:": {
+        "Course ID": "CPSC_V 455",
+        "Title": "Applied Industry Practices",
+        "Description": "Hands-on project, mentored by industry experts, integrating skills relevant to early career in the computing industry: technical skills, communication, teamwork, networking and portfolio building. [2.5-2-0] ",
+        "Prerequisite": "One of CPSC 310, CPEN 321.",
+        "Corequisite": ""
+    },
+    "57:": {
+        "Course ID": "CPSC_V 490",
+        "Title": "Student Directed Seminars",
+        "Description": "Self-directed, collaborative studies, in a group-learning environment, initiated and coordinated by senior undergraduate students with the supervision of a faculty advisor. Course structure, enrolment and delivery methods will comply with the Handbook for Student Directed Seminars. [3-0-0",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "58:": {
+        "Course ID": "CPSC_V 491",
+        "Title": "Interactive Digital Media Practicum",
+        "Description": "Design and implementation of interactive digital media systems using modern processes and tools. Projects provided by external clients or vetted entrepreneurial pitches are developed by interdisciplinary teams composed of one CPSC 491 student and multiple Master of Digital Media students. ",
+        "Prerequisite": "All of CPSC 221, CPSC 310, CPSC 344. and Third-year standing.\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "59:": {
+        "Course ID": "CPSC_V 499",
+        "Title": "Co-operative Work Placement V",
+        "Description": "Approved and supervised technical work experience in the computing industry for a minimum of 3.5 months. Normally taken during the summer following the fourth year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Computer Science.\nThis course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "60:": {
+        "Course ID": "CPSC_V 500",
+        "Title": "Fundamentals of Algorithm Design and Analysis",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "61:": {
+        "Course ID": "CPSC_V 501",
+        "Title": "Theory of Automata, Formal Languages and Computability",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "62:": {
+        "Course ID": "CPSC_V 502",
+        "Title": "Artificial Intelligence I",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "63:": {
+        "Course ID": "CPSC_V 503",
+        "Title": "Computational Linguistics I",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "64:": {
+        "Course ID": "CPSC_V 504",
+        "Title": "Data Management",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "65:": {
+        "Course ID": "CPSC_V 505",
+        "Title": "Image Understanding I: Image Analysis",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "66:": {
+        "Course ID": "CPSC_V 506",
+        "Title": "Complexity of Computation",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "67:": {
+        "Course ID": "CPSC_V 507",
+        "Title": "Software Engineering",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "68:": {
+        "Course ID": "CPSC_V 508",
+        "Title": "Operating Systems",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "69:": {
+        "Course ID": "CPSC_V 509",
+        "Title": "Programming Language Principles",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "70:": {
+        "Course ID": "CPSC_V 511",
+        "Title": "Implementation of Programming Languages",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "71:": {
+        "Course ID": "CPSC_V 513",
+        "Title": "Introduction to Formal Verification and Analysis",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "72:": {
+        "Course ID": "CPSC_V 514",
+        "Title": "Computer Graphics: Rendering",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "73:": {
+        "Course ID": "CPSC_V 515",
+        "Title": "Computational Robotics",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "74:": {
+        "Course ID": "CPSC_V 516",
+        "Title": "Computational Geometry",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "75:": {
+        "Course ID": "CPSC_V 517",
+        "Title": "Sparse Matrix Computation",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "76:": {
+        "Course ID": "CPSC_V 519",
+        "Title": "Logic Programming and Functional Programming",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "77:": {
+        "Course ID": "CPSC_V 520",
+        "Title": "Numerical Solution of Differential Equations",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "78:": {
+        "Course ID": "CPSC_V 521",
+        "Title": "Parallel Algorithms and Architectures",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "79:": {
+        "Course ID": "CPSC_V 522",
+        "Title": "Artificial Intelligence II",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "80:": {
+        "Course ID": "CPSC_V 524",
+        "Title": "Computer Graphics: Modelling",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "81:": {
+        "Course ID": "CPSC_V 525",
+        "Title": "Image Understanding II: Scene Analysis",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "82:": {
+        "Course ID": "CPSC_V 526",
+        "Title": "Computer Animation",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "83:": {
+        "Course ID": "CPSC_V 527",
+        "Title": "Computer Communication Protocols",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "84:": {
+        "Course ID": "CPSC_V 529",
+        "Title": "Definition of Programming Languages",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "85:": {
+        "Course ID": "CPSC_V 530",
+        "Title": "Topics in Information Processing",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "86:": {
+        "Course ID": "CPSC_V 531",
+        "Title": "Topics in Theory of Computation",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "87:": {
+        "Course ID": "CPSC_V 532",
+        "Title": "Topics in Artificial Intelligence",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "88:": {
+        "Course ID": "CPSC_V 533",
+        "Title": "Topics in Computer Graphics",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "89:": {
+        "Course ID": "CPSC_V 534",
+        "Title": "Topics in Data Management",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "90:": {
+        "Course ID": "CPSC_V 535",
+        "Title": "Topics in Simulation and Optimization",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "91:": {
+        "Course ID": "CPSC_V 536",
+        "Title": "Topics in Algorithms and Complexity",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "92:": {
+        "Course ID": "CPSC_V 537",
+        "Title": "Topics in Coding and Information Theory",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "93:": {
+        "Course ID": "CPSC_V 538",
+        "Title": "Topics in Computer Systems",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "94:": {
+        "Course ID": "CPSC_V 539",
+        "Title": "Topics in Programming Languages",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "95:": {
+        "Course ID": "CPSC_V 540",
+        "Title": "Machine Learning",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "96:": {
+        "Course ID": "CPSC_V 542",
+        "Title": "Topics in Numerical Computation",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "97:": {
+        "Course ID": "CPSC_V 543",
+        "Title": "Physical User Interface Design and Evaluation",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "98:": {
+        "Course ID": "CPSC_V 544",
+        "Title": "Human Computer Interaction",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "99:": {
+        "Course ID": "CPSC_V 545",
+        "Title": "Algorithms for Bioinformatics",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "100:": {
+        "Course ID": "CPSC_V 546",
+        "Title": "Numerical Optimization",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "101:": {
+        "Course ID": "CPSC_V 547",
+        "Title": "Information Visualization",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "102:": {
+        "Course ID": "CPSC_V 548",
+        "Title": "Directed Study",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "103:": {
+        "Course ID": "CPSC_V 549",
+        "Title": "Master's Thesis",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "104:": {
+        "Course ID": "CPSC_V 550",
+        "Title": "Machine Learning II",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "105:": {
+        "Course ID": "CPSC_V 554",
+        "Title": "Topics in Human-Computer Interaction",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "106:": {
+        "Course ID": "CPSC_V 564",
+        "Title": "Data Mining",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "107:": {
+        "Course ID": "CPSC_V 589",
+        "Title": "M.Sc. Major Essay",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "108:": {
+        "Course ID": "CPSC_V 590",
+        "Title": "Research Methods in Computer Science",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "109:": {
+        "Course ID": "CPSC_V 649",
+        "Title": "Doctoral Dissertation",
+        "Description": "This course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "111:": {
+        "Course ID": "APSC_V 160",
+        "Title": "Introduction to Computation in Engineering Design",
+        "Description": "Analysis and simulation, laboratory data acquisition and processing, measurement interfaces, engineering tools, computer systems organization, programming languages. Credit will only be given for one of: APSC 160, CPSC 301, or EOSC 211. [3-2-0]\nThis course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "112:": {
+        "Course ID": "BIOL_V 111",
+        "Title": "Introduction to Modern Biology",
+        "Description": "Concepts fundamental to biological issues, such as the genetic basis of biological variation, evolution, infectious diseases, causes of cancer, population growth, and human effects on ecosystems. Not open to students who have credit for Biology 12 (including AP, IB). [3-0-0",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "113:": {
+        "Course ID": "BIOL_V 300",
+        "Title": "Fundamentals of Biostatistics",
+        "Description": "Statistical procedures for biological research; estimation, hypothesis testing, goodness of fit, analysis of variance and regression; use of computers for statistical analysis. Please consult the Faculty of Science Credit Exclusion Lists:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n[3-2-0] ",
+        "Prerequisite": "One of BIOL 121, SCIE 001. ",
+        "Corequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001."
+    },
+    "114:": {
+        "Course ID": "BMEG_V 250",
+        "Title": "Cellular  Physiology  and Biophysics",
+        "Description": "Cellular structure and mechanisms of membrane transport, signal transduction, muscle mechanochemistry and neurotransmission. Structure and hierarchical organization up to the level of tissues. Light and electron microscopy. [3-1-0] ",
+        "Prerequisite": "All of BMEG 245, MATH 256.\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "115:": {
+        "Course ID": "COMM_V 291",
+        "Title": "no information",
+        "Description": "no information",
+        "Prerequisites": "",
+        "Corequisites": ""
+    },
+    "116:": {
+        "Course ID": "COMM_V 337",
+        "Title": "Business Programming and Analytics",
+        "Description": "Introduction to object-oriented computer programming; computational thinking; program design; scripting; documentation techniques; file handling; database access; and web crawling techniques. Students will apply data structures and programming constructs to the development of business analytics and other related applications. Credit will be granted for only one of COMM_V 337 and CPSC_V 103. ",
+        "Prerequisite": "COMM_V 205.\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "117:": {
+        "Course ID": "CPEN_V 212",
+        "Title": "Computing Systems II",
+        "Description": "Abstractions at the hardware-software interface and their low-level implementation. Procedure invocation, dynamic dispatch, and related exploits; library linkage, virtual memory, heap management, garbage collection, and caches; interrupts, signals, and processes; threads, locks, and cache coherence; files, devices, and network topology. [3-2-0] ",
+        "Prerequisite": "CPEN 211 and one of CPEN 221, CPEN 223, CPSC 259.\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "118:": {
+        "Course ID": "CPEN_V 221",
+        "Title": "Software Construction I",
+        "Description": "Design, implementation, reasoning about software systems: abstraction and specification of software, testing, verification, abstract data types, object-oriented design, type hierarchies, concurrent software design. [3-2-2*] ",
+        "Prerequisite": "APSC 160.\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "119:": {
+        "Course ID": "CPEN_V 321",
+        "Title": "Software Engineering",
+        "Description": "Engineering practices for the development of non-trivial software-intensive systems including requirements specification, software architecture, implementation, verification, and maintenance. Iterative development. Recognized standards, guidelines, and models. Credit will only be granted for only one of CPSC 310, CPEN 321. [3-2-0] Corequisite: CPEN 322.\nThis course is not eligible for Credit/D/Fail grading",
+        "Prerequisite": "",
+        "Corequisite": "CPEN 322.\nThis course is not eligible for Credit/D/Fail grading."
+    },
+    "120:": {
+        "Course ID": "CPEN_V 331",
+        "Title": "Operating Systems",
+        "Description": "Operating systems, their design and their implementation. Process concurrency, synchronization, communication and scheduling. Device drivers, memory management, virtual memory, file systems, networking and security. [3-3-0] ",
+        "Prerequisite": "CPEN 212 and CPEN 221.\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "121:": {
+        "Course ID": "CPEN_V 411",
+        "Title": "Computer Architecture",
+        "Description": "Modern processors, GPUs, and memory hierarchies; quantitative principles and instruction set design; pipelining, superscalar issue, out-of-order execution, branch prediction and speculation; memory hierarchies, caches, virtual addressing, prefetching, coherence, and consistency; multicores, VLIW, on-chip networks, and other advanced architectures. Credit will be granted for only one of CPSC 313, CPEN 411.  [3-0-2] ",
+        "Prerequisite": "One of CPEN 212, CPEN 311, CPEN 312.\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "122:": {
+        "Course ID": "DSCI_V 221",
+        "Title": "Data Structures for Data Science",
+        "Description": "Object-oriented programming. Design and analysis of basic algorithms and data structures especially relevant to data science. Algorithm analysis methods, basic data structures, graphs and graph algorithms. [3-2-0] ",
+        "Prerequisite": "DSCI_V 220, or CPSC_V 121 and CPSC_V 203.",
+        "Corequisite": ""
+    },
+    "123:": {
+        "Course ID": "ECON_V 325",
+        "Title": "Introduction to Econometrics I",
+        "Description": "Essentials of probability and statistics for applied work in economics. Topics include fundamentals of probability and statistical inference including estimation and hypothesis testing, and simple linear regression models. Credit will only be granted for one of ECON_V 325, ECON_V 327, COMM_V 191, STAT_V 200, STAT_V 241, STAT_V 251. ",
+        "Prerequisite": "One of ECON_V 101, ECON_V 310 and one of ECON_V 102, ECON_V 311 and one of MATH_V 100, MATH_V 102, MATH_V 104, MATH_V 110, MATH_V 120, MATH_V 180, MATH_V 184 and one of MATH_V 101, MATH_V 103, MATH_V 105, MATH_V 121.",
+        "Corequisite": ""
+    },
+    "124:": {
+        "Course ID": "ECON_V 327",
+        "Title": "Introduction to Empirical Methods",
+        "Description": "Basic tools for the statistical analysis of economic data. Registration restricted to students in the Bachelor of International Economics Program. Credit will be granted for only one of ECON 325, ECON 327, COMM 191, STAT 200, STAT 203, STAT 241, STAT 251. ",
+        "Prerequisite": "One of ECON 101, ECON 310 and one of ECON 102, ECON 311; and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184; and one of MATH 101, MATH 103, MATH 105, MATH 121.",
+        "Corequisite": ""
+    },
+    "125:": {
+        "Course ID": "EECE_V 210",
+        "Title": "no information",
+        "Description": "no information",
+        "Prerequisites": "",
+        "Corequisites": ""
+    },
+    "126:": {
+        "Course ID": "EECE_V 259",
+        "Title": "no information",
+        "Description": "no information",
+        "Prerequisites": "",
+        "Corequisites": ""
+    },
+    "127:": {
+        "Course ID": "ELEC_V 331",
+        "Title": "Computer Communications",
+        "Description": "Analysis, design and implementation of computer networks and their protocols. Application layer protocols, transmission control protocol (TCP), Internet protocol (IP), routing algorithms, reliable data transfer, multiple access, Ethernet. [3-0-2] ",
+        "Prerequisite": "One of ELEC 221, CPEN 212, CPSC 261, CPEN 331.\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "128:": {
+        "Course ID": "EOSC_V 211",
+        "Title": "Computer Methods in Earth, Ocean and Atmospheric Sciences",
+        "Description": "Mathematical computer-based problem solving in the physical, chemical, and biological sciences. Problems drawn from studies of the earth, the oceans and the atmosphere. Credit will be granted for only one of APSC 160 or EOSC 211. [2-0-2] ",
+        "Prerequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.",
+        "Corequisite": ""
+    },
+    "129:": {
+        "Course ID": "FRST_V 231",
+        "Title": "Introduction to Biometrics",
+        "Description": "Basic theories of probability and statistics. Sampling distribution, methods of estimation and hypothesis testing; goodness of fit and tests for independence; analysis of variance, regression and correlation. Consult the Faculty of Science Credit Exclusion Lists:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n. Credit will be granted for only one of NRES 231 or FRST 231. [3-2-0] Corequisite: One of MATH 100, MATH 180, MATH 184, MATH 190. Equivalency: NRES 23",
+        "Prerequisite": "",
+        "Corequisite": "One of MATH 100, MATH 180, MATH 184, MATH 190. Equivalency: NRES 231"
+    },
+    "130:": {
+        "Course ID": "GEOG_V 374",
+        "Title": "Statistics in Geography",
+        "Description": "Introduction to statistical techniques and their application to geographical problems. Priority enrolment for honours and major students in Geography. Consult the Faculty of Science Credit Exclusion Lists:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n",
+        "Prerequisite": "",
+        "Corequisite": ""
+    },
+    "131:": {
+        "Course ID": "MATH_V 101",
+        "Title": "Integral Calculus with Applications",
+        "Description": "The definite integral, integration techniques, applications, modelling, infinite series. Equivalency: MATH_V 103, 105. [3-0-0] ",
+        "Prerequisite": "One of MATH_V 100, MATH_V 102, MATH_V 104, MATH_V 110, MATH_V 120, MATH_V 180, MATH_V 184.",
+        "Corequisite": ""
+    },
+    "132:": {
+        "Course ID": "MATH_V 103",
+        "Title": "Integral Calculus with Applications to Life Sciences",
+        "Description": "Antiderivatives and definite integrals, infinite series, applications to probability and dynamical systems. Equivalency: MATH_V 101, 105. [3-0-0] ",
+        "Prerequisite": "One of MATH_V 100, MATH_V 102, MATH_V 104, MATH_V 110, MATH_V 120, MATH_V 180, MATH_V 184.",
+        "Corequisite": ""
+    },
+    "133:": {
+        "Course ID": "MATH_V 105",
+        "Title": "Integral Calculus with Applications to Commerce and Social Sciences",
+        "Description": "Antiderivatives, the definite integral, techniques of integration, infinite series, partial derivatives, maxima and minima with constraints, discrete and continuous random variables. Equivalency: MATH_V 101, 103. [3-0-0] ",
+        "Prerequisite": "One of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184.",
+        "Corequisite": ""
+    },
+    "134:": {
+        "Course ID": "MATH_V 121",
+        "Title": "Honours Integral Calculus",
+        "Description": "Definite integrals and the Fundamental Theorem of Calculus, techniques and applications of integration, infinite series. Please consult the Faculty of Science Credit Exclusion List:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n[4-0-0] ",
+        "Prerequisite": "Either(a) MATH 120 or (b) one of MATH 100, MATH 102, MATH 104, MATH 180, MATH 184. Prerequisite grade requirement: 80% in MATH184,MATH180,MATH104,MATH102,MATH100. 68% in MATH120. or (c) a score of 5 in AP Calculus AB.",
+        "Corequisite": ""
+    },
+    "135:": {
+        "Course ID": "MATH_V 152",
+        "Title": "Linear Systems",
+        "Description": "2D and 3D geometry, vectors and matrices, eigenvalues and vibration, physical applications. Laboratories demonstrate computer solutions of large systems. Please consult the Faculty of Science Credit Exclusion List:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n[3-1*-0] Corequisite: [MATH101",
+        "Prerequisite": "",
+        "Corequisite": "[MATH101]"
+    },
+    "136:": {
+        "Course ID": "MATH_V 200",
+        "Title": "Calculus III",
+        "Description": "Analytic geometry in 2 and 3 dimensions, partial and directional derivatives, chain rule, maxima and minima, second derivative test, Lagrange multipliers, multiple integrals with applications. Please consult the Faculty of Science Credit Exclusion List:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n. [3-0-0] ",
+        "Prerequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.",
+        "Corequisite": ""
+    },
+    "137:": {
+        "Course ID": "MATH_V 210",
+        "Title": "Introduction to Mathematical Computing",
+        "Description": "Introduction to mathematical software and numerical methods. Numbers, arrays, functions, vectorization and iteration. Sequences and series, root finding, numerical integration, numerical methods for differential equations, systems of linear equations, mathematical graphics. [3-0-0] ",
+        "Prerequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001. ",
+        "Corequisite": "One of MATH 215, MATH 255, MATH 256, MATH 258 and one of MATH 152, MATH 221, MATH 223."
+    },
+    "138:": {
+        "Course ID": "MATH_V 217",
+        "Title": "Multivariable and Vector Calculus",
+        "Description": "Partial differentiation, extreme values, multiple integration, vector fields, line and surface integrals, the divergence theorem, Green's and Stokes' theorems. Intended for students in Honours Physics and Engineering Physics. Please consult the Faculty of Science Credit Exclusion List:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n[4-0-0] ",
+        "Prerequisite": "A score of 68% or higher in one of PHYS 102, PHYS 108, PHYS 118, PHYS 153, PHYS 158, SCIE 001 and a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001. ",
+        "Corequisite": "One of MATH 152, MATH 221, MATH 223."
+    },
+    "139:": {
+        "Course ID": "MATH_V 220",
+        "Title": "Mathematical Proof",
+        "Description": "Sets and functions; induction; cardinality; properties of the real numbers; sequences, series, and limits. Logic, structure, style, and clarity of proofs emphasized throughout. [3-0-0] ",
+        "Prerequisite": "Either (a) a score of 64% or higher in one of MATH 101, MATH 103, MATH 105, SCIE 001 or (b) one of MATH 121, MATH 200, MATH 217, MATH 226, MATH 253, MATH 254.",
+        "Corequisite": ""
+    },
+    "140:": {
+        "Course ID": "MATH_V 221",
+        "Title": "Matrix Algebra",
+        "Description": "Systems of linear equations, operations on matrices, determinants, eigenvalues and eigenvectors, diagonalization of symmetric matrices. This course is intended for first and second year students. Please consult the Faculty of Science Credit Exclusion List:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n[3-0-0] Equivalency: MATH_V 111. ",
+        "Prerequisite": "Either (a) one of MATH_V 100, MATH_V 102, MATH_V 104, MATH_V 110, MATH_V 120, MATH_V 180, MATH_V 184, SCIE_V 001 or (b) advanced credit for MATH_V 100, or (c) SCIE_V 001 as a corequisite.",
+        "Corequisite": ""
+    },
+    "141:": {
+        "Course ID": "MATH_V 223",
+        "Title": "Honours Linear Algebra",
+        "Description": "Matrices, eigenvectors, diagonalization, orthogonality, linear systems, applications. This course is intended for first and second year students. Students who obtain credit for MATH_V 223 cannot in the same or later terms obtain credit for MATH_V 111, MATH_V 152, or MATH_V 221. [3-0-0] Equivalency: MATH_V 131. ",
+        "Prerequisite": "One of (a) one of MATH_V 120, MATH_V 121, SCIE_V 001, or (b) a score of 80% or higher in one of MATH_V 100, MATH_V 102, MATH_V 104, MATH_V 110, MATH_V 180, MATH_V 184, or (c) a score of 68% or higher in one of MATH_V 101, MATH_V 103, MATH_V 105, MATH_V 111, MATH_V 152, MATH_V 221, or (d) SCIE_V 001 as a corequisite.",
+        "Corequisite": ""
+    },
+    "142:": {
+        "Course ID": "MATH_V 226",
+        "Title": "Advanced Calculus I",
+        "Description": "Functions of several variables: limits, continuity, differentiability; implicit functions; Taylor's theorem; extrema; Lagrange multipliers; multiple integration, Fubini's theorem; improper integrals. Please consult the Faculty of Science Credit Exclusion List:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n[3-0-0] ",
+        "Prerequisite": "Either (a) a score of 68% or higher in MATH 121 or (b) a score of 80% or higher in one of MATH 101, MATH 103, MATH 105, SCIE 001. ",
+        "Corequisite": "One of MATH 152, MATH 221, MATH 223."
+    },
+    "143:": {
+        "Course ID": "MATH_V 253",
+        "Title": "Multivariable Calculus",
+        "Description": "Partial and directional derivatives; maxima and minima; Lagrange multipliers and second derivative test; multiple integrals and applications. Please consult the Faculty of Science Credit Exclusion List:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n[3-0-0] ",
+        "Prerequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.",
+        "Corequisite": ""
+    },
+    "144:": {
+        "Course ID": "MATH_V 254",
+        "Title": "Multivariable and Vector Calculus for Mechanical Engineering",
+        "Description": "Partial differentiation, extreme values, multiple integration, vector fields, line and surface integrals, the divergence and Stokes' theorems; applications to fluid mechanics: buoyancy, hydrostatic force, pipe flow, drag; applications to thermodynamics: work, entropy, heat transfer; numerical methods. Emphasis on mechanical engineering applications. [3-0-1*] ",
+        "Prerequisite": "MATH 101 and one of MATH 152, MATH 221, MATH 223. ",
+        "Corequisite": "All of MECH 222, MECH 225."
+    },
+    "145:": {
+        "Course ID": "MATH_V 302",
+        "Title": "Introduction to Probability",
+        "Description": "Basic notions of probability, random variables, expectation and conditional expectation, limit theorems.  Please consult the Faculty of Science Credit Exclusion List:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n[3-0-0] ",
+        "Prerequisite": "One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254. Equivalency: STAT302",
+        "Corequisite": ""
+    },
+    "146:": {
+        "Course ID": "MATH_V 307",
+        "Title": "Applied Linear Algebra",
+        "Description": "Applications of linear algebra to problems in science and engineering; use of computer algebra systems for solving problems in linear algebra. [3-0-0] ",
+        "Prerequisite": "One of MATH 152, MATH 221, MATH 223 and one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254.",
+        "Corequisite": ""
+    },
+    "147:": {
+        "Course ID": "MATH_V 318",
+        "Title": "Probability with Physical Applications",
+        "Description": "Random variables, discrete and continuous distributions. Random walk, Markov chains, Monte Carlo methods. Characteristic functions, limit laws. Please consult the Faculty of Science Credit Exclusion List:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n[3-0-0] ",
+        "Prerequisite": "One of MATH 152, MATH 221, MATH 223. ",
+        "Corequisite": "One of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312."
+    },
+    "148:": {
+        "Course ID": "PHYS_V 210",
+        "Title": "Introduction to Computational Physics",
+        "Description": "Introduction to UNIX/Linux; software tools for processing, fitting and displaying data; numerical methods and application in the physical sciences. [2-3-0] ",
+        "Prerequisite": "One of PHYS 102, PHYS 108, PHYS 118, PHYS 158, PHYS 153, SCIE 001. ",
+        "Corequisite": "One of MATH 152, MATH 221, MATH 223."
+    },
+    "149:": {
+        "Course ID": "POLI_V 380",
+        "Title": "Quantitative Methods in Political Science",
+        "Description": "An introduction to quantitative research methods and data analysis used in the study of politics. Students are advised to review the Science Credit Exclusion Lists for course equivalencies to avoid unnecessary registration. ",
+        "Prerequisite": "POLI_V 110. Or third-year standing or higher.\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "150:": {
+        "Course ID": "PSYC_V 218",
+        "Title": "Analysis of Behavioural Data",
+        "Description": "Use of inferential statistics in psychology and conceptual interpretation of data; experimental design (laboratory, field research methods); presentation of data analyses in reports. Credit will be granted for only one of: PSYC 218, PSYC 278, BIOL 300, COMM 291, ECON 325, ECON 327, EPSE 482, FRST 231, GEOG 374, KIN 371, POLI 380, SOCI 328, STAT 200, STAT 203. Restricted to students in one of PSYC Major, BA COGS Major. ",
+        "Prerequisite": "One of PSYC 217, PSYC 277.\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "151:": {
+        "Course ID": "PSYC_V 278",
+        "Title": "Analysis of Behavioural and Neuroscientific Data",
+        "Description": "Statistical methods for use in the neurosciences. Credit will be granted for only one of: PSYC_V 218, PSYC_V 278, BIOL_V 300, COMM_V 291, ECON_V 325, ECON_V 327, EPSE_V 482, FRST_V 231, GEOG_V 374, KIN_V 371, POLI_V 380, SOCI_V 328, STAT_V 200, STAT_V 203. Restricted to students in one of NSCI Major, BSc COGS Major (Cognition and Brain stream).",
+        "Prerequisite": "One of PSYC 217, PSYC 277.\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "152:": {
+        "Course ID": "PSYC_V 366",
+        "Title": "no information",
+        "Description": "no information",
+        "Prerequisites": "",
+        "Corequisites": ""
+    },
+    "153:": {
+        "Course ID": "SCIE_V 001",
+        "Title": "Science One",
+        "Description": "An innovative first-year multi-disciplinary course incorporating biology, chemistry, mathematics, and physics with a strong focus on the connections between these traditional disciplines. Students with credit for SCIE_V 001 will be deemed to have satisfied all BIOL_V 112, BIOL_V 121, BIOL_V 180, CHEM_V 121, CHEM_V 123, MATH_V 100, MATH_V 101, PHYS_V 117, PHYS_V 118, PHYS_V119, and PHYS_V 129 requirements. See the Science One website (\nwww.scienceone.ubc.ca\n)for further information and the application process for admission to SCIE_V 001. [12-6-4;12-6-4] ",
+        "Prerequisite": "All of: CALC 12, ENGL 12, and Pre-calculus 12; two of: CHEM 12, PHYS 12, High School Biology (either BIOL 11 or BIOL 12).\nThis course is not eligible for Credit/D/Fail grading.",
+        "Corequisite": ""
+    },
+    "154:": {
+        "Course ID": "SOCI_V 328",
+        "Title": "Social Statistics I",
+        "Description": "The testing of sociological theories using quantitative data analysis techniques on numerical data from social surveys, experiments and official statistics. SOCI 328 excludes credit for a number of other statistics courses in various departments. Please consult the Science Credit Exclusion List (\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n) before registering. ",
+        "Prerequisite": "One of SOCI 100, SOCI 101, SOCI 102.",
+        "Corequisite": ""
+    },
+    "155:": {
+        "Course ID": "STAT_V 200",
+        "Title": "Elementary Statistics for Applications",
+        "Description": "Classical, nonparametric, and robust inferences about means, variances, and analysis of variance, using computers. Emphasis on problem formulation, assumptions, and interpretation. See the Faculty of Science Credit Exclusion Lists:\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n[3-1-0] ",
+        "Prerequisite": "One of any course on the MATH 100 credit exclusion list [\nhttps://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/facult\u2026\n], MATH 190, SCIE 001.",
+        "Corequisite": ""
+    },
+    "156:": {
+        "Course ID": "STAT_V 201",
+        "Title": "Statistical Inference for Data Science",
+        "Description": "Classical and simulation-based techniques for estimation and hypothesis testing, including inference for means and proportions. Emphasis on case studies and real data sets, as well as reproducible and transparent workflows when writing computer scripts for analysis and reports. [3-0-1] ",
+        "Prerequisite": "DSCI 100.",
+        "Corequisite": ""
+    },
+    "157:": {
+        "Course ID": "STAT_V 203",
+        "Title": "Statistical Methods",
+        "Description": "Organizing, displaying and summarizing data. Inference estimation and testing for elementary probability models. Not for credit towards a B.Sc. (Consult the Credit Exclusion list within the Faculty of Science section in the Calendar.) [3-1-0] ",
+        "Prerequisite": "MATH 11. Or Pre-calculus 11.",
+        "Corequisite": ""
+    },
+    "158:": {
+        "Course ID": "STAT_V 241",
+        "Title": "no information",
+        "Description": "no information",
+        "Prerequisites": "",
+        "Corequisites": ""
+    },
+    "159:": {
+        "Course ID": "STAT_V 251",
+        "Title": "Elementary Statistics",
+        "Description": "Probability, discrete and continuous random variables, joint probability distributions, estimation, hypothesis testing, regression, analysis of variance, goodness of fit. (Consult the Credit Exclusion list within the Faculty of Science section of the Calendar). [3-1-0] ",
+        "Prerequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.",
+        "Corequisite": ""
+    },
+    "160:": {
+        "Course ID": "BIOL_V 121"
+    },
+    "161:": {
+        "Course ID": "BMEG_V 245"
+    },
+    "162:": {
+        "Course ID": "COMM_V 205"
+    },
+    "163:": {
+        "Course ID": "CPEN_V 211"
+    },
+    "164:": {
+        "Course ID": "CPEN_V 223"
+    },
+    "165:": {
+        "Course ID": "CPEN_V 311"
+    },
+    "166:": {
+        "Course ID": "CPEN_V 312"
+    },
+    "167:": {
+        "Course ID": "DSCI_V 100"
+    },
+    "168:": {
+        "Course ID": "DSCI_V 220"
+    },
+    "169:": {
+        "Course ID": "ECON_V 101"
+    },
+    "170:": {
+        "Course ID": "ECON_V 102"
+    },
+    "171:": {
+        "Course ID": "ECON_V 310"
+    },
+    "172:": {
+        "Course ID": "ECON_V 311"
+    },
+    "173:": {
+        "Course ID": "ELEC_V 221"
+    },
+    "174:": {
+        "Course ID": "MATH_V 100"
+    },
+    "175:": {
+        "Course ID": "MATH_V 102"
+    },
+    "176:": {
+        "Course ID": "MATH_V 104"
+    },
+    "177:": {
+        "Course ID": "MATH_V 110"
+    },
+    "178:": {
+        "Course ID": "MATH_V 111"
+    },
+    "179:": {
+        "Course ID": "MATH_V 120"
+    },
+    "180:": {
+        "Course ID": "MATH_V 180"
+    },
+    "181:": {
+        "Course ID": "MATH_V 184"
+    },
+    "182:": {
+        "Course ID": "MATH_V 190"
+    },
+    "183:": {
+        "Course ID": "MATH_V 256"
+    },
+    "184:": {
+        "Course ID": "PHYS_V 102"
+    },
+    "185:": {
+        "Course ID": "PHYS_V 108"
+    },
+    "186:": {
+        "Course ID": "PHYS_V 118"
+    },
+    "187:": {
+        "Course ID": "PHYS_V 153"
+    },
+    "188:": {
+        "Course ID": "PHYS_V 158"
+    },
+    "189:": {
+        "Course ID": "POLI_V 110"
+    },
+    "190:": {
+        "Course ID": "PSYC_V 217"
+    },
+    "191:": {
+        "Course ID": "PSYC_V 277"
+    },
+    "192:": {
+        "Course ID": "SOCI_V 100"
+    },
+    "193:": {
+        "Course ID": "SOCI_V 101"
+    },
+    "194:": {
+        "Course ID": "SOCI_V 102"
+    }
+}

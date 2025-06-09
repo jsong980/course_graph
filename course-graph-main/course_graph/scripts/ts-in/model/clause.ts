@@ -14,11 +14,11 @@ export class Clause extends Node{
 
     constructor(op: LogicOp, id: string){
         //Constructing a unique key
-        super(id);
+        super(id, "Clause");
         this.op = op;
         this.id = id;
     }
-
+    
     get operator(){
         return this.op;
     }

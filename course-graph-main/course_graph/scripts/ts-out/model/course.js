@@ -4,7 +4,7 @@ Course represents a course node with an id, description, credits, and a list of 
 import { Node } from "./node.js";
 export class Course extends Node {
     constructor(course_id, credits) {
-        super(course_id);
+        super(course_id, "Course");
         this.course_id = course_id;
         this.desc = "";
         this.credits = credits;

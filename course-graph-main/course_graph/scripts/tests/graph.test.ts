@@ -42,6 +42,40 @@ test('test constructor', ()=>{
     expect(tgraph.andCount).toEqual(0);
 });
 
+test('Add single node of type course', ()=>{
+    tgraph.addSingleNode(cpsc110);
+    expect(tgraph.adjList.length).toEqual(1);
+    expect(tgraph.courseList.length).toEqual(1);
+    expect(tgraph.clauseList.length).toEqual(0);
+    expect(tgraph.orCount).toEqual(0);
+    expect(tgraph.andCount).toEqual(0); 
+    expect(tgraph.courseList[0]).toEqual(cpsc110);
+});
+
+test('Add single node of type clause OR', ()=>{
+    let or : Node = new Clause(LogicOp.OR, "OR1");
+
+    tgraph.addSingleNode(or);
+    expect(tgraph.adjList.length).toEqual(1);
+    expect(tgraph.courseList.length).toEqual(0);
+    expect(tgraph.clauseList.length).toEqual(1);
+    expect(tgraph.orCount).toEqual(1);
+    expect(tgraph.andCount).toEqual(0);
+    expect(tgraph.clauseList[0]).toEqual(or);
+});
+
+test('Add single node of type clause AND', ()=>{
+    let and : Node = new Clause(LogicOp.AND, "AND1");
+
+    tgraph.addSingleNode(and);
+    expect(tgraph.adjList.length).toEqual(1);
+    expect(tgraph.courseList.length).toEqual(0);
+    expect(tgraph.clauseList.length).toEqual(1);
+    expect(tgraph.orCount).toEqual(0);
+    expect(tgraph.andCount).toEqual(1);
+    expect(tgraph.clauseList[0]).toEqual(and);
+});
+
 test('Add single prerequisite to a course', ()=>{
     tgraph.addPrequisite(cpsc107, cpsc103); 
     expect(tgraph.doesEdgeExist(cpsc103, cpsc107)).toBe(true);
@@ -563,9 +597,17 @@ test('Add an intersection of an intersection and a union', ()=>{
 });
 
 test('Create graph representing part of the UBC\'s computer science curriculum', ()=>{
+    let arr : Node[] = [cpsc110, cpsc107]
+    let exp_or1 : Node = new Clause(LogicOp.OR, "OR1");
+    exp_or1.setPosition(3);
 
+    let expected : Array<Array<Node>> = [[cpsc110, exp_or1],[cpsc107, exp_or1], [cpsc210], [exp_or1, cpsc210], [cpsc103, cpsc107]]
+
+    tgraph.addUnionOfPrequisites(cpsc210, arr); 
+    tgraph.addPrequisite(cpsc107, cpsc103); 
+
+    expect(tgraph.adjList).toEqual(expected);
 });
-
 
 //Helpers:
 

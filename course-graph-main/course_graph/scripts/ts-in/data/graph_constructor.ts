@@ -15,7 +15,7 @@ import { JsonWriter } from "../persistence/JsonWriter.js";
 const cpsc103 : Node = new Course("CPSC_V 103", 4); 
 const cpsc107 : Node = new Course("CPSC_V 107", 4); 
 const graph : Graph = new Graph(); 
-const jsonWriter : JsonWriter = new JsonWriter('../graph_data.json');
+const jsonWriter : JsonWriter = new JsonWriter('../mimi.json');
 
 graph.addPrequisite(cpsc107, cpsc103); 
 jsonWriter.saveGraph(graph);

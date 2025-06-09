@@ -1,10 +1,7 @@
 import { Graph } from "./model/graph.js";
 import * as d3 from 'd3';
-// import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
-// import * as d3 from 'https://cdn.skypack.dev/d3@7';
-// import fs from 'fs'
-import data from './user.json' with { type: "json" };
-// console.log("hewwo");
+import data from './graph_data.json' with { type: "json" };
+console.log("hewwo");
 const x = 100;
 const y = 100;
 const obj = JSON.parse(JSON.stringify(data));

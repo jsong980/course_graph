@@ -3,19 +3,28 @@ export class JsonWriter {
     constructor(destination) {
         this.destination = destination;
     }
-    writeFile(jsonObj) {
+    writeToOutput(jsonObj) {
         //TODO: Change to try catch block instead
-        fs.writeFile(this.destination, jsonObj, (err) => {
-            if (err) {
-                console.log('Error writing file:', err);
-            }
-            else {
-                console.log('Successfully wrote file');
-            }
-        });
+        // fs.writeFile(this.destination, jsonObj, (err) => {
+        // if (err) {
+        //     console.log('Error writing file:', err);
+        // } else {
+        //     console.log('Successfully wrote file');
+        // }});
+        try {
+            fs.writeFileSync(this.destination, jsonObj);
+            console.log("Successfully wrote file!");
+        }
+        catch (err) {
+            console.log("Error writing to output file!");
+        }
     }
     saveGraph(graph) {
         let graph_json = JSON.stringify(graph, null, 2);
-        this.writeFile(graph_json);
+        this.writeToOutput(graph_json);
+    }
+    //Getters: 
+    get dest() {
+        return this.destination;
     }
 }

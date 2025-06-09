@@ -10,7 +10,7 @@ export class Course extends Node{
     private credits: number;
 
     constructor(course_id: string, credits: number){
-        super(course_id);
+        super(course_id, "Course");
         this.course_id = course_id; 
         this.desc = ""; 
         this.credits = credits;

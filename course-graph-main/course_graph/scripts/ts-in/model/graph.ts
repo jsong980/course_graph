@@ -29,9 +29,21 @@ export class Graph implements IGraph{
         if(node instanceof Course){
             this.courses.push(node);
         }else{
+            let cl = node as Clause; 
+
+            if(cl.operator == LogicOp.AND){
+                this.and_count++;
+            }else{
+                this.or_count++;
+            }
             this.clauses.push(node);
         }
         
+    }
+
+    //Adds a single course to the graph
+    public addSingleNode(node : Node){
+        if(!this.doesNodeExist(node)) this.addNode(node);
     }
 
     // Adds a prerequisite to a course; 
@@ -60,8 +72,8 @@ export class Graph implements IGraph{
     // Adds a union of prerequisties to an existing course.
     // This means a student must take at least one of the courses in the pre_reqs in order to apply for the course
     public addUnionOfPrequisites(course: Node, pre_reqs: Node[]): Clause{
-        this.or_count++;
-        let key : string = `OR${this.or_count}`;
+        // this.or_count++;
+        let key : string = `OR${this.or_count + 1}`;
         let clause : Clause = new Clause(LogicOp.OR, key);
         this.addClauseNodeHelper(clause, pre_reqs, course);
 
@@ -71,8 +83,8 @@ export class Graph implements IGraph{
     // Adds a intersection of prerequisties to an existing course.
     // This means a student must take all the courses in the pre_reqs in order to apply for the course
     public addIntersectionOfPrequisites(course: Node, pre_reqs: Node[]): Clause{
-        this.and_count++;
-        let key : string = `AND${this.and_count}`;
+        // this.and_count++;
+        let key : string = `AND${this.and_count + 1}`;
         let clause : Clause = new Clause(LogicOp.AND, key);
         this.addClauseNodeHelper(clause, pre_reqs, course);
 

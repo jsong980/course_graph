@@ -5,7 +5,7 @@ import { LogicOp, Clause } from "./model/clause.js";
 import * as d3 from 'd3';
 import data from './graph_data.json' with {type: "json"}
 
-// console.log("hewwo");
+console.log("hewwo");
 const x : number = 100;
 const y : number = 100;
 const obj = JSON.parse(JSON.stringify(data));

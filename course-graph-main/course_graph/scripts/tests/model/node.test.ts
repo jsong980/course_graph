@@ -1,7 +1,7 @@
 import {expect, assert, test} from 'vitest' 
-import {Node} from '../ts-in/model/node.js'
-import {Course} from '../ts-in/model/course.js';
-import {Clause, LogicOp} from '../ts-in/model/clause.js';
+import {Node} from '../../ts-in/model/node.js'
+import {Course} from '../../ts-in/model/course.js';
+import {Clause, LogicOp} from '../../ts-in/model/clause.js';
 
 //Globals:
 var tnode : Node = new Node('testnode', "Course"); 

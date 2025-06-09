@@ -1,4 +1,5 @@
 /** Node represents a node in a graph and stores its own position in the adjacency list for the graph */
+
 export class Node{ 
     private key : string; //key = string + "_" + id_num
     private pos : number; //-1 as default,

@@ -1,19 +1,5 @@
 {
-  "and_count": 0,
-  "or_count": 0,
-  "adj_list": [
-    [
-      {
-        "key": "CPSC_V 103",
-        "pos": 0,
-        "type": "Course",
-        "course_id": "CPSC_V 103",
-        "desc": "",
-        "credits": 4
-      }
-    ]
-  ],
-  "courses": [
+  "nodes": [
     {
       "key": "CPSC_V 103",
       "pos": 0,
@@ -23,5 +9,5 @@
       "credits": 4
     }
   ],
-  "clauses": []
+  "edges": []
 }

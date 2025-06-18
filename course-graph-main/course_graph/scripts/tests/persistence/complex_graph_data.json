@@ -1,88 +1,5 @@
 {
-  "and_count": 0,
-  "or_count": 1,
-  "adj_list": [
-    [
-      {
-        "key": "CPSC_V 110",
-        "pos": 0,
-        "type": "Course",
-        "course_id": "CPSC_V 110",
-        "desc": "",
-        "credits": 4
-      },
-      {
-        "key": "OR1",
-        "pos": 3,
-        "type": "Clause",
-        "op": "Or",
-        "id": "OR1"
-      }
-    ],
-    [
-      {
-        "key": "CPSC_V 107",
-        "pos": 1,
-        "type": "Course",
-        "course_id": "CPSC_V 107",
-        "desc": "",
-        "credits": 4
-      },
-      {
-        "key": "OR1",
-        "pos": 3,
-        "type": "Clause",
-        "op": "Or",
-        "id": "OR1"
-      }
-    ],
-    [
-      {
-        "key": "CPSC_V 210",
-        "pos": 2,
-        "type": "Course",
-        "course_id": "CPSC_V 210",
-        "desc": "",
-        "credits": 4
-      }
-    ],
-    [
-      {
-        "key": "OR1",
-        "pos": 3,
-        "type": "Clause",
-        "op": "Or",
-        "id": "OR1"
-      },
-      {
-        "key": "CPSC_V 210",
-        "pos": 2,
-        "type": "Course",
-        "course_id": "CPSC_V 210",
-        "desc": "",
-        "credits": 4
-      }
-    ],
-    [
-      {
-        "key": "CPSC_V 103",
-        "pos": 4,
-        "type": "Course",
-        "course_id": "CPSC_V 103",
-        "desc": "",
-        "credits": 4
-      },
-      {
-        "key": "CPSC_V 107",
-        "pos": 1,
-        "type": "Course",
-        "course_id": "CPSC_V 107",
-        "desc": "",
-        "credits": 4
-      }
-    ]
-  ],
-  "courses": [
+  "nodes": [
     {
       "key": "CPSC_V 110",
       "pos": 0,
@@ -114,15 +31,84 @@
       "course_id": "CPSC_V 103",
       "desc": "",
       "credits": 4
-    }
-  ],
-  "clauses": [
+    },
     {
       "key": "OR1",
       "pos": 3,
       "type": "Clause",
       "op": "Or",
       "id": "OR1"
+    }
+  ],
+  "edges": [
+    {
+      "source": {
+        "key": "CPSC_V 110",
+        "pos": 0,
+        "type": "Course",
+        "course_id": "CPSC_V 110",
+        "desc": "",
+        "credits": 4
+      },
+      "target": {
+        "key": "OR1",
+        "pos": 3,
+        "type": "Clause",
+        "op": "Or",
+        "id": "OR1"
+      }
+    },
+    {
+      "source": {
+        "key": "CPSC_V 107",
+        "pos": 1,
+        "type": "Course",
+        "course_id": "CPSC_V 107",
+        "desc": "",
+        "credits": 4
+      },
+      "target": {
+        "key": "OR1",
+        "pos": 3,
+        "type": "Clause",
+        "op": "Or",
+        "id": "OR1"
+      }
+    },
+    {
+      "source": {
+        "key": "OR1",
+        "pos": 3,
+        "type": "Clause",
+        "op": "Or",
+        "id": "OR1"
+      },
+      "target": {
+        "key": "CPSC_V 210",
+        "pos": 2,
+        "type": "Course",
+        "course_id": "CPSC_V 210",
+        "desc": "",
+        "credits": 4
+      }
+    },
+    {
+      "source": {
+        "key": "CPSC_V 103",
+        "pos": 4,
+        "type": "Course",
+        "course_id": "CPSC_V 103",
+        "desc": "",
+        "credits": 4
+      },
+      "target": {
+        "key": "CPSC_V 107",
+        "pos": 1,
+        "type": "Course",
+        "course_id": "CPSC_V 107",
+        "desc": "",
+        "credits": 4
+      }
     }
   ]
 }
